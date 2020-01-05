@@ -8,4 +8,4 @@ def convert(number):
     if number % 7 == 0:
         result += "Plong"
 
-    return (result or str(number))
+    return result or str(number)
